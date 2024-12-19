@@ -1,2 +1,77 @@
-# NL-to-SQL-Chatbot
-AI-Powered Natural Language to SQL Query Generator
+# **AI-Powered Natural Language to SQL Query Generator**
+Overview
+The AI-Powered Natural Language to SQL Query Generator is a Natural Language Processing (NLP) project that aims to simplify database querying by translating plain English queries into SQL commands. This project enhances accessibility and user experience, making data interaction more intuitive across various domains, including business intelligence and academic research.
+
+# Table of Contents
+Features
+Technologies Used
+Installation
+Usage
+Project Structure
+Contributing
+License
+Acknowledgements
+
+# Features
+Convert natural language queries into SQL commands.
+User-friendly interface for easy interaction.
+Integration with MySQL databases for real-time query execution.
+Supports complex queries and provides accurate SQL outputs.
+Built using advanced NLP techniques and transformer models.
+
+# Technologies Used
+Python: Primary programming language for development.
+FastAPI: For creating API endpoints to handle natural language queries and SQL execution.
+PyTorch: For building and deploying deep learning models.
+Transformers Library: For utilizing transformer-based models like T5 for NLP tasks.
+MySQL: For database management and query execution.
+HTML, CSS, JavaScript: For frontend development and user interface design.
+
+# Installation
+To set up the project locally, follow these steps:
+
+Clone the repository:
+git clone https://github.com/yourusername/nlp-to-sql-generator.git
+cd nlp-to-sql-generator
+
+Create a virtual environment:
+python -m venv venv
+source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+
+Install the required packages:
+pip install -r requirements.txt
+Set up your MySQL database and update the database connection details in the configuration file.
+
+# Usage
+Start the FastAPI server:
+uvicorn main:app --reload
+Open your web browser and navigate to http://127.0.0.1:8000.
+Enter your natural language query in the input field and submit to receive the corresponding SQL output.
+
+# Project Structure
+nlp-to-sql-generator/
+│
+├── main.py                # Main application file
+├── requirements.txt       # Python dependencies
+├── templates/             # HTML templates for the frontend
+│   └── index.html
+├── static/                # Static files (CSS, JS)
+│   ├── styles.css
+│   └── script.js
+└── models/                # Machine learning models and utilities
+    ├── model.py
+    └── tokenizer.py
+
+# Contributing
+Contributions are welcome! If you have suggestions for improvements or new features, please fork the repository and submit a pull request.
+
+Fork the repository.
+Create your feature branch:
+git checkout -b feature/YourFeature
+
+Commit your changes:
+git commit -m 'Add some feature'
+
+Push to the branch:
+git push origin feature/YourFeature
+Open a pull request.
