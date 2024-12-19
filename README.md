@@ -31,7 +31,7 @@ HTML, CSS, JavaScript: For frontend development and user interface design.
 To set up the project locally, follow these steps:
 
 Clone the repository:
-git clone https://github.com/yourusername/nlp-to-sql-generator.git
+git clone https://github.com/ManashPratimBaro/NL-to-SQL-Chatbot.git
 cd nlp-to-sql-generator
 
 Create a virtual environment:
