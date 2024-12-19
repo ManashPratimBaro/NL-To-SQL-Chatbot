@@ -2,15 +2,13 @@
 Overview
 The AI-Powered Natural Language to SQL Query Generator is a Natural Language Processing (NLP) project that aims to simplify database querying by translating plain English queries into SQL commands. This project enhances accessibility and user experience, making data interaction more intuitive across various domains, including business intelligence and academic research.
 
-# Table of Contents
-Features
-Technologies Used
-Installation
-Usage
-Project Structure
-Contributing
-License
-Acknowledgements
+## **Table of Contents**
+- Features
+- Technologies Used
+- Installation
+- Usage
+- Project Structure
+- Contributing
 
 # Features
 Convert natural language queries into SQL commands.
@@ -20,12 +18,12 @@ Supports complex queries and provides accurate SQL outputs.
 Built using advanced NLP techniques and transformer models.
 
 # Technologies Used
-Python: Primary programming language for development.
-FastAPI: For creating API endpoints to handle natural language queries and SQL execution.
-PyTorch: For building and deploying deep learning models.
-Transformers Library: For utilizing transformer-based models like T5 for NLP tasks.
-MySQL: For database management and query execution.
-HTML, CSS, JavaScript: For frontend development and user interface design.
+- Python: Primary programming language for development.
+- FastAPI: For creating API endpoints to handle natural language queries and SQL execution.
+- PyTorch: For building and deploying deep learning models.
+- Transformers Library: For utilizing transformer-based models like T5 for NLP tasks.
+- MySQL: For database management and query execution.
+- HTML, CSS, JavaScript: For frontend development and user interface design.
 
 # Installation
 To set up the project locally, follow these steps:
