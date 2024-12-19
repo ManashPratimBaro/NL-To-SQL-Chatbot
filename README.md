@@ -46,19 +46,23 @@ uvicorn main:app --reload
 Open your web browser and navigate to http://127.0.0.1:8000.
 Enter your natural language query in the input field and submit to receive the corresponding SQL output.
 
-# Project Structure
+## **Project Structure**
+```plaintext
 nlp-to-sql-generator/
-│
-├── main.py                # Main application file
+├── main.py                # Main application file for FastAPI
 ├── requirements.txt       # Python dependencies
 ├── templates/             # HTML templates for the frontend
-│   └── index.html
-├── static/                # Static files (CSS, JS)
-│   ├── styles.css
-│   └── script.js
-└── models/                # Machine learning models and utilities
-    ├── model.py
-    └── tokenizer.py
+│   └── index.html         # Main HTML file
+├── static/                # Static files for styling and frontend scripts
+│   ├── styles.css         # CSS file for styling
+│   └── script.js          # JavaScript file for frontend interactivity
+├── models/                # Directory for machine learning models
+│   ├── model.py           # Code for the ML model
+│   └── tokenizer.py       # Tokenizer utilities
+└── config/                # Configuration files
+    └── db_config.py       # MySQL database configuration
+```
+
 
 # Contributing
 Contributions are welcome! If you have suggestions for improvements or new features, please fork the repository and submit a pull request.
